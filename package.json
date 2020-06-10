@@ -1,0 +1,32 @@
+{
+  "name": "webpack_exercise_hdc",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "eslint-loader": "^4.0.2",
+    "lodash": "^4.17.15",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "eslint": "^7.2.0",
+    "style-loader": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TTS-Javascript-Remote-2020/webpack_exercise_HDC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TTS-Javascript-Remote-2020/webpack_exercise_HDC/issues"
+  },
+  "homepage": "https://github.com/TTS-Javascript-Remote-2020/webpack_exercise_HDC#readme"
+}

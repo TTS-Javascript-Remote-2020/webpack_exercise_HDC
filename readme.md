@@ -25,3 +25,6 @@ use lodash to shuffle throught the die array and select a random number
 print that number to the screen
 
 ask the user if they'd like to play again
+
+****************
+Die Face was taken from https://medium.com/better-programming/creating-dice-in-flexbox-in-css-a02a5d85e516
