@@ -6,7 +6,6 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
-  watch: true,
   module: {
     rules: [
       {test: /\.css$/, use: 'style-loader'},
