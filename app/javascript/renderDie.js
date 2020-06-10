@@ -1,25 +1,25 @@
-export default (number) => {
-  let die = document.querySelector("#die");
+export default (number, dieNumber) => {
+  let die = document.querySelector(`#die${dieNumber}`);
   die.innerHTML = "";
 
   switch(number) {
     case 1:
-      die.className = "first-face";
+      die.className = "die first-face";
       break;
     case 2:
-      die.className = "second-face";
+      die.className = "die second-face";
       break;
     case 3:
-      die.className = "second-face third";
+      die.className = "die second-face third";
       break;
     case 4:
-      die.className = "fourth-face";
+      die.className = "die fourth-face";
       break;
     case 5:
-      die.className = "fourth-face fifth";
+      die.className = "die fourth-face fifth";
       break;
     case 6:
-      die.className = "fourth-face sixth";
+      die.className = "die fourth-face sixth";
       break;
     default:
       break;

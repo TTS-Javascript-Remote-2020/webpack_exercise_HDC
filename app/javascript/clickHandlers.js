@@ -3,9 +3,11 @@ import _ from "lodash";
 import renderDie from './renderDie';
 
 export const rollDie = () => {
-  let number = _.random(1, 6);
-  console.log(number);
-  renderDie(number);
+  for (let i = 1; i < 3; i++) {
+    let number = _.random(1, 6);
+    console.log(number);
+    renderDie(number, i);
+  }
   renderRollAgain();
 };
 

@@ -38,10 +38,13 @@ body {
 }
 
 #diceContainer {
-
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-#die {
+.die {
   width: 15rem;
   height: 15rem;
   border-radius: 1rem;
